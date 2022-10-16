@@ -1,0 +1,26 @@
+.Products {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ProductRight {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.ProductLeft img {
+  max-width: 200px;
+}
+.ProductRight h3,
+.ProductRight p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.ProductRight button {
+  background: gold;
+  border: 2px solid #ddd;
+  padding: 5px;
+  display: inline-block;
+  width: 150px;
+  border-radius: 5px;
+}
