@@ -7,8 +7,8 @@ const Shop = () => {
   //   console.log(fakeData)
   const first10 = fakeData.slice(0, 10)
   const [products, setProducts] = useState(first10)
-  const buttonClicker = () => {
-    console.log('Product Added')
+  const buttonClicker = (product) => {
+    console.log('Product Added', product)
   }
 
   return (
