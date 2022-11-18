@@ -21,6 +21,7 @@ const Shop = () => {
         <ul>
           {products.map((products) => (
             <Products
+              showAddToCart={true}
               product={products}
               addProductHandler={buttonClicker}
             ></Products>

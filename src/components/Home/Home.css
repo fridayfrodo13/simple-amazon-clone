@@ -1,0 +1,10 @@
+.App-Header{
+    text-align: center
+}
+.BtnX{
+    padding: 5px 10px;
+    background: #FF9A00;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 0 15px #ddd;
+}
