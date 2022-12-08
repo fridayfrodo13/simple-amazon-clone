@@ -12,6 +12,7 @@ import {
   Routes,
 } from 'react-router-dom'
 import Error from './components/Error/Error'
+import Review from './components/Review/Review'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/inventory" element={<Inventory />} />
+          <Route path="/review" element={<Review />} />
           <Route path="/product/:productkey" element={<Product />} />
           <Route path="*" element={<Error />} />
         </Routes>

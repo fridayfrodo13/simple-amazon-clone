@@ -1,3 +1,15 @@
 .Cart {
   padding-left: 5px;
 }
+.cartButton {
+  background: gold;
+  border: 2px solid #ddd;
+  padding: 5px;
+  display: inline-block;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}

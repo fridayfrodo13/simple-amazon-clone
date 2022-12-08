@@ -1,0 +1,33 @@
+.App{
+
+    text-align: center;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px groove gray;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+   
+    
+}
+.review .left{
+    margin-right: 30px;
+}
+.review .left img{
+    width: 100%;
+    max-width: 150px;
+   
+}
+.review .right{
+    text-align: left;
+}
+button {
+    background: gold;
+    border: 2px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
